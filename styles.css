@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: hsl(0, 0%, 12%);
+  width: 20%; 
+  border: 30%;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+#bio{
+  margin: 20px 0;
+}
+
+.profileimage{
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 0%;
+}
+ 
+.location{
+  color: hsl(75, 94%, 57%);
+  margin-top: 2px;
+}
+
+.links{
+  text-decoration: none;
+  color: white; 
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
